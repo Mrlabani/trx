@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/terabox.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/terabox", "dest": "/api/terabox.js" }
+  ]
+}
